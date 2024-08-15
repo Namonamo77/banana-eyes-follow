@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banana{
+    height: 80vh;
+}
+
+.eye{
+    transform-origin: -50% -50% ;
+}
+
+#rightEye ellipse, #leftEye ellipse{
+    stroke:black;
+    stroke-width:5;
+}
